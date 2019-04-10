@@ -1,0 +1,44 @@
+{
+    "name": "moravio/doctemplates",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Moravio",
+            "email": "info@moravio.com",
+            "homepage": "moravio.com"
+        }
+    ],
+    "homepage": "https://github.com/moravio/doctemplates",
+    "keywords": ["Laravel", "DocTemplates"],
+    "require": {
+        "illuminate/support": "~5",
+        "phpoffice/phpword": "^0.14.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moravio\\DocTemplates\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moravio\\DocTemplates\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moravio\\DocTemplates\\DocTemplatesServiceProvider"
+            ],
+            "aliases": {
+                "DocTemplates": "Moravio\\DocTemplates\\Facades\\DocTemplates"
+            }
+        }
+    }
+}
