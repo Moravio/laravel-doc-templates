@@ -1,5 +1,5 @@
 {
-    "name": "moravio/doctemplates",
+    "name": "moravio/laravel-doc-templates",
     "description": ":description",
     "license": "license",
     "authors": [
@@ -9,8 +9,8 @@
             "homepage": "moravio.com"
         }
     ],
-    "homepage": "https://github.com/moravio/doctemplates",
-    "keywords": ["Laravel", "DocTemplates"],
+    "homepage": "https://github.com/Moravio/laravel-doc-templates",
+    "keywords": ["Laravel", "Moravio", "DocTemplates"],
     "require": {
         "illuminate/support": "~5",
         "phpoffice/phpword": "^0.14.0"
