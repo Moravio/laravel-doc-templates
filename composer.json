@@ -12,7 +12,6 @@
     "homepage": "https://github.com/Moravio/laravel-doc-templates",
     "keywords": ["Laravel", "Moravio", "DocTemplates"],
     "require": {
-        "illuminate/support": "~5",
         "phpoffice/phpword": "^0.14.0"
     },
     "require-dev": {
